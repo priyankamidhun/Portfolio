@@ -1,0 +1,253 @@
+.nav-image {
+    height: 120px;
+    width: 120px;
+    margin-left: 100px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.listitem {
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+.list {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.list:hover {
+    color: red;
+}
+
+.secondname {
+    color: orangered;
+}
+
+.title {
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+.title-h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.download {
+    background-color: black;
+    color: white;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.image {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.image img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image:hover #shape {
+    bottom: 20%;
+}
+
+.image:hover #girl {
+    left: 40%;
+}
+
+#about {
+    margin: 15% 8% 0px 8%;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about2 {
+    font-size: 32px;
+    font-weight: 400px;
+}
+
+.intro {
+    font-size: 20px;
+    color: green;
+    font-weight: 400px;
+}
+
+.about-img img {
+    width: 80%;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 2rem;
+    /*gap:10px  */
+}
+
+.about-details {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.information {
+    margin-top: 20px;
+}
+
+.each-info {
+    margin-top: 10px;
+}
+
+.info-span {
+    margin-left: 10px;
+}
+
+.skills-heading {
+    text-align: center;
+}
+
+#skills {
+    margin: 7% 8% 0px 8%;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.progress-bar {
+    margin-left: 70px;
+    padding-left: 40px;
+    margin-top: 100px;
+
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.base-bar {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.orange-bar {
+    background-color: orange;
+    width: 95%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.contact-heading {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icon-set {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-style:hover{
+   background-color: red;
+}
+
+.icon-style{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.bottom-footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icon-style:hover{
+    background-image: linear-gradient(to bottom right, yellow, red);
+} 
+
+.each-icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate();
+    }
+}
+
+.up-arrow{
+    float: right;
+    background-image: linear-gradient(to bottom right, yellow, red);
+    margin: 0px 10px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.up-arrow i{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.up-arrow:hover{
+    animation: shake 0.75s;
+}
